@@ -34,7 +34,13 @@ img{
     text-transform: capitalize;
     max-width: initial !important;
   }
+}
 
-
+@media (max-width:300px){
+  .subtitulo{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
 }
 
