@@ -1,4 +1,4 @@
-.experiencia{
+.experiencia {
   max-width: 1200px;
   padding: 40px 20px;
   margin: 0 auto;
@@ -7,11 +7,11 @@
   gap: 100px;
 }
 
-.experiencia .subtitulo{
+.experiencia .subtitulo {
   color: #e0e0e0;
 }
 
-.experiencia-texto{
+.experiencia-texto {
   font-size: 1.5rem;
   line-height: 1.33;
   max-width: 40ch;
@@ -19,11 +19,11 @@
   color: #525252;
 }
 
-.experiencia-texto strong{
+.experiencia-texto strong {
   color: #141414;
 }
 
-.empresa{
+.projeto {
   display: grid;
   position: relative;
   background: #f5f5f5;
@@ -32,18 +32,18 @@
   padding: 20px;
 }
 
-.empresa::before{
+.projeto::before {
   content: "";
   display: block;
   width: 4px;
   height: 20px;
-  background: linear-gradient(#FF4500, #191970);
+  background: linear-gradient(#ff4500, #191970);
   position: absolute;
   top: 20px;
   left: -4px;
 }
 
-.empresa-ano{
+.projeto-linguagem {
   position: absolute;
   top: 22px;
   left: -85px;
@@ -53,34 +53,34 @@
   width: 65px;
 }
 
-.empresa-titulo{
+.projeto-titulo {
   font-size: 1.125rem;
   font-weight: bold;
   padding: 0px 0px 10px 0px;
 }
 
-.empresa-texto{
-  font-size: .875rem;
+.projeto-texto {
+  font-size: 0.875rem;
   line-height: 1.4;
   padding-top: 10px;
-  color: #525252
+  color: #525252;
 }
 
-@media (max-width: 800px){
-  .experiencia{
+@media (max-width: 800px) {
+  .experiencia {
     grid-template-columns: 1fr;
     gap: 40px;
   }
 
-  .experiencia .subtitulo{
+  .experiencia .subtitulo {
     color: #141414;
   }
 
-  .experiencia-texto{
+  .experiencia-texto {
     font-size: 1.25rem;
   }
 
-  .empresa-ano{
+  .projeto-linguagem {
     position: initial;
     grid-row: 3;
     width: fit-content;
@@ -88,7 +88,5 @@
   }
 }
 
-@media (max-width: 300px){
-  
+@media (max-width: 300px) {
 }
-

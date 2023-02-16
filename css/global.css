@@ -26,6 +26,7 @@ img{
   line-height: 1;
   text-transform: uppercase;
   max-width: 4ch;
+  margin: auto;
 }
 
 @media (max-width: 800px){
